@@ -1,0 +1,50 @@
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 3px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #babbbe;
+}
+
+tr:nth-child(even) {
+  background-color: #ebeff1;
+}
+tr:nth-child(odd) {
+  background-color: #d9dbdd;
+}
+td {
+  border: 1px solid #959699;
+}
+button{
+  background-color: #bcbdc0;
+  border: 1px;
+  border-color: black;
+  border-radius: 2px;
+  margin-left: 3px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover{
+  opacity: 0.6;
+}
+button:active{
+  opacity: 0.2;
+}
+td, th{
+  text-align: center;
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.addtask{
+  border: solid;
+}
+</style>
